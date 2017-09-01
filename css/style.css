@@ -1,0 +1,51 @@
+body {
+    position: relative;
+}
+
+.wrapper {
+    width: 800px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.column {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+#status {
+    position: absolute;
+    top: 10rem;
+		left: 50%;
+		-webkit-transform: translateX(-50%);
+		        transform: translateX(-50%);
+    min-width: 400px;
+    margin: 0;
+		text-align: center;
+}
+
+.dice {
+    width: 50px;
+    float: left;
+    background-color:;
+    border: 2px solid black;
+    padding: 20px;
+    font-size: 48px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.dice-roll {
+    cursor: pointer;
+    text-transform: capitalize;
+}

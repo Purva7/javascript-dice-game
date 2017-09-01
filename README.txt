@@ -1,0 +1,1 @@
+ A simple example of creating a dice game in JavaScript
