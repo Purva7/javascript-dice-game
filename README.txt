@@ -1,1 +1,1 @@
- A simple example of creating a dice game in JavaScript
+ A dice game in JavaScript
